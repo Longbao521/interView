@@ -1,0 +1,10 @@
+<div id="app">
+    <div :class="isActive:true,isError:false"></div>
+</div>
+....
+var app=new Vue({
+    el："#app",
+    data:{
+        
+    }
+})
