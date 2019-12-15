@@ -24,8 +24,17 @@ module.exports = {
     }
 }
 ```
-+
-
+#### 输出
+输出output用来指定webpack如何向硬盘写入编译文件。注意，即使可以存在多个entry起点，但只能指定一个output配置
+output属性最低的要求是将它的值设置为对象，包括以下属性:
++filename 用于输出文件的文件名
+```javascript
+module.exports={
+    output:{
+        filename:"bundle.js"
+    }
+}
+```
 
 ---
 
